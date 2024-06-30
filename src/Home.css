@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    padding: 30px;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbar .leftside{
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+.Navbar .rightside{
+    font-size: 1.8rem;
+        display: flex;
+        gap: 1.8rem;
+        cursor: pointer;
+}
+.Navbar input{
+    width: 580px;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    border-width: 3px;
+    border-color: blue;
+}
+.Navbar input::placeholder{
+    font-weight: bold;
+    color: black;
+}
+.Content{
+    display: flex;
+}
+.basiccontent{
+    margin-top: 20px;
+}
+.cards{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+img{
+    width: 160px;
+   
+}
+.card{
+    border-style: solid;
+    border-color: rgb(206, 205, 205);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    
+    ;
+    
+}
+.cards{
+    margin-top: 20px;
+}
+.card p{
+  margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: left;
+    
+}
+ .rating-star{
+   color: rgb(242, 255, 0); 
+}
+.costing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+}
+ button{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: rgb(0, 255, 0);
+    transition: .5s;
+    color: black;
+    border-style: none;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 20px; /* Gap between cards */
+}
+.carts{
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.carts h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.carts p {
+    font-size: 14px;
+    color: #666;
+}
+.categorey{
+    position: static;
+    height: 100%;
+
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+.categorey button{
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+
+    
+}
+.categorey button:hover{
+    background-color: white;
+    color: black;
+}
